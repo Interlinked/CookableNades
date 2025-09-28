@@ -1,2 +1,4 @@
-# r2template
-This repository is a template-repository that contains the basic structure for a risk of rain 2 mod. Names are left empty in the solution, manifest, and csproj files for the user to fill out
+# Cookable Nades
+Allows commando to cook his nades by holding down the skill button, up to a cap, at which point the grenade will explode instantly on him when he throws it. 
+
+
