@@ -40,7 +40,7 @@ namespace CookableNades.entityState
            
             
             fireProjectileInfo.useFuseOverride = true;
-            fireProjectileInfo.fuseOverride = 3-Mathf.Clamp(cookTime, 0, 3); 
+            fireProjectileInfo.fuseOverride = 3-Mathf.Clamp(cookTime*2, 0, 3); 
         }
         public override void OnEnter()
         {
