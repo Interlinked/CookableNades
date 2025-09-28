@@ -1,8 +1,8 @@
 {
 	"name": "CookableNades",
 	"version_number": "1.0.0",
-	"website_url": "",
-	"description": "ModDesc",
+	"website_url": "https://github.com/Interlinked/CookableNades",
+	"description": "Allows mando to cook his nades by holding down the skill button. The crosshair ticks for every fourth of the maximum cook time, at which point, when commando throws, the grenade will explode instantly. Deals no self damage.",
 	"dependencies": [
 		"bbepis-BepInExPack-5.4.9",
 		"RiskofThunder-HookGenPatcher-1.2.1"
