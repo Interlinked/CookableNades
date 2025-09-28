@@ -32,8 +32,9 @@ namespace CookableNadesMain {
         {
             // set logger
             ModLogger = Logger;
-            Paths.SkillDef.ThrowGrenade.activationState = new SerializableEntityStateType(typeof(CookableNade));
-          
+            
+
+            
 
             EntityStateConfiguration config = GameObject.Instantiate(Paths.EntityStateConfiguration.EntityStatesCommandoCommandoWeaponThrowGrenade);
             config.name = "ThrowGrenade";
