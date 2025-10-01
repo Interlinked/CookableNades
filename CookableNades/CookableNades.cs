@@ -74,33 +74,32 @@ namespace CookableNadesMain.CookableNades.entityState
                 bool isTicking = false;
                 isCooking = true;
                 cookTime += Time.fixedDeltaTime;
-                CookableNadesMain.CookableNadesClass.ModLogger.LogInfo(isTicking);
-                CookableNadesMain.CookableNadesClass.ModLogger.LogInfo(cookTime);
+             
                 if (isTicking)
                 {
                     base.characterBody.SetSpreadBloom(1f, true);
                     isTicking = false;
                 } else if ((Math.Round(cookTime,1)  == Math.Round(3/1.5 / 4,1)) )
                     {
-                        CookableNadesMain.CookableNadesClass.ModLogger.LogInfo("Tick");
+                       
                         base.characterBody.SetSpreadBloom(0.6f, true);
                         isTicking = true;
                     }
                     else if ((Math.Round(cookTime,1)  == Math.Round(3/1.5 / 2,1)) )
                     {
-                    CookableNadesMain.CookableNadesClass.ModLogger.LogInfo("Tick");
+                  
                         base.characterBody.SetSpreadBloom(0.6f, true);
                         isTicking = true;
                     }
                     else if ((Math.Round(cookTime,1)  == Math.Round(3*(3/1.5 / 4),1))  )
                     {
-                        CookableNadesMain.CookableNadesClass.ModLogger.LogInfo("Tick");
+                        
                         base.characterBody.SetSpreadBloom(0.6f, true);
                         isTicking = true;
                     }
                     else if ((Math.Round(cookTime,1)  == Math.Round(3/1.5,1)) )
                     {
-                        CookableNadesMain.CookableNadesClass.ModLogger.LogInfo("Tick");
+                        
                         base.characterBody.SetSpreadBloom(0.9f, true);
                         isTicking = true;
                     }
@@ -112,8 +111,7 @@ namespace CookableNadesMain.CookableNades.entityState
             {
 
                 nadeAnimator.SetFloat(FireFMJParamHash, basePlaybackRate);
-                CookableNadesMain.CookableNadesClass.ModLogger.LogInfo(basePlaybackRate);
-                CookableNadesMain.CookableNadesClass.ModLogger.LogInfo("Done Cooking");
+            
                 isCooking = false;
                 Destroy(nadeGhost);
                 base.FixedUpdate();
