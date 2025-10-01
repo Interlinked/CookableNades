@@ -22,7 +22,7 @@ namespace CookableNadesMain {
     public class CookableNadesClass : BaseUnityPlugin {
         public static GameObject grenadeGhost;
         public const string PluginGUID = PluginAuthor + "." + PluginName;
-        public const string PluginAuthor = "ModAuthorName";
+        public const string PluginAuthor = "Interlink";
         public const string PluginName = "CookableNades";
         public const string PluginVersion = "1.0.0";
 
